@@ -1224,7 +1224,11 @@ function createBot() {
     });
 
     bot.loadPlugin(pathfinder);
-
+    // ---- ADD THIS NEW CODE RIGHT HERE ----
+    bot.on('keep_alive', (packet) => {
+      bot.write('keep_alive', { id: packet.id });
+    });
+    // ---
     // FIX: connection timeout - end the old bot before reconnecting to avoid ghost bots
     clearBotTimeouts();
     connectionTimeoutId = setTimeout(() => {
