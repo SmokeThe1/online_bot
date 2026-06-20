@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "AbsouluteChaosSmp.play.hosting",
-    "port": 64494,
+    "port": -1,
     "version": "",
     "try-creative": false
   },
