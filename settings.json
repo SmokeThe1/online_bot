@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "chaossmp.cruxhosting.online",
-    "port": 25565 ,
+    "ip": "gold.magmanode.com",
+    "port": 26949 ,
     "version": "1.21.11",
     "try-creative": false
   },
